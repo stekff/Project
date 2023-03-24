@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Япония</title>
+    <style>
+    </style>
+</head>
+<body>
+
+  <audio autoplay>
+    <source src="{{ url_for('static', filename='/audio/Pull Up Japan.mp3') }}" type="audio/mpeg">
+  </audio>
+
+
+<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 mt-2 border-bottom">
+      <a href="#" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"></a>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="/" class="nav-link px-2 link-light">Главная</a></li>
+        <li><a href="/naprav" class="nav-link px-2 link-light">Направления</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+
+      </div>
+    </header>
+
+
+<div class="container px-4 py-5">
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+
+
+
+      <div class="row col d-flex align-items-start px-4">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center ">
+          <img class="rounded-5" width="300" height="230"  src="{{ url_for('static', filename='/images/japan bil.jpg') }}">
+        </div>
+        <h3 style="text-shadow: white 0 0 5px;" class="fs-2">Иокогама</h3>
+        <p style="text-shadow: white 0 0 5px;">Крупнейший портовый город Японии</p>
+         <p style="text-shadow: white 0 0 5px;">Цена: 30540 рублей</p>
+        <a href="https://t.me/biletikiiii" class="icon-link d-inline-flex align-items-center">
+          Купить билетик
+        </a>
+      </div>
+
+
+
+
+      <div class="row col d-flex align-items-start px-4">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center ">
+          <img class="rounded-5" width="300" height="230"  src="{{ url_for('static', filename='/images/osaka.jpg') }}">
+        </div>
+        <h3 style="text-shadow: white 0 0 5px;"class="fs-2">Осака</h3>
+        <p style="text-shadow: white 0 0 5px;">Третий по населению город Японии</p>
+          <p style="text-shadow: white 0 0 5px;">Цена: 55640 рублей</p>
+        <a href="https://t.me/biletikiiii" class="icon-link d-inline-flex align-items-center">
+          Купить билетик
+        </a>
+      </div>
+
+
+
+
+      <div class="row col d-flex align-items-start px-4">
+
+          <img class="rounded-5" width="300" height="230"  src="{{ url_for('static', filename='/images/hiros.jpg') }}">
+
+        <h3 style="text-shadow: white 0 0 5px;"class="fs-2">Хиросима</h3>
+        <p style="text-shadow: white 0 0 5px;">Без комментариев</p>
+          <p style="text-shadow: white 0 0 5px;">Цена: 15000</p>
+        <a href="https://t.me/biletikiiii" class="icon-link d-inline-flex align-items-center">
+          Купить билетик
+        </a>
+      </div>
+
+
+
+      </div>
+      </div>
+
+</body>
+</html>
